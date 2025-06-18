@@ -1,0 +1,47 @@
+# ========================================
+# CodeIgniter 4 .gitignore Template
+# ========================================
+
+# Environment configuration (custom for each machine)
+.env
+
+# Composer vendor folder (regenerate with composer install)
+/vendor/
+
+# Node modules (if using npm)
+/node_modules/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# System/temporary files
+*.bak
+*.tmp
+*.swp
+*.log
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac specific
+.DS_Store
+
+# CI4 generated logs, cache, and debugbar files
+/writable/cache/
+/writable/logs/
+/writable/debugbar/
+
+# PHPUnit test results
+phpunit.xml
+phpunit.xml.dist
+.phpunit.result.cache
+
+# Build & coverage output
+/build/
+/coverage/
+
+# Uploads folder (optional, only if you don't want to track user uploads)
+/public/uploads/
