@@ -23,7 +23,6 @@
         <ul>
             <li>Total Petani: <?= $totalPetani ?></li>
             <li>Total Data Panen: <?= $totalPanen ?></li>
-            <li>Aktivitas Terakhir: <?= $lastLog ?></li>
         </ul>
     </section>
 </body>
